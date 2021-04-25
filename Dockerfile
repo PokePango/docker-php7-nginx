@@ -1,6 +1,5 @@
-LABEL maintainer="dev@arthurelectronics.fr"
-
 FROM alpine:3.9
+LABEL maintainer="dev@arthurelectronics.fr"
 
 # Updating system
 RUN apk add --upgrade apk-tools && apk update && apk upgrade --available
